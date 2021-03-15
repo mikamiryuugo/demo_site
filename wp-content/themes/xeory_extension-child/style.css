@@ -1,0 +1,30 @@
+/*
+Theme Name: XeoryExtension Child
+Theme URI: https://xeory.jp/extension
+Template: xeory_extension
+Author: バズ部
+Author URI: https://bazubu.com/
+Description: Xeory拡張テーマ
+Version: 0.2.5.1615364569
+Updated: 2021-03-10 17:22:49
+
+*/
+
+/* body.home #main_visual {
+    background-image: url("https://demo.r-ruby.com/wp-content/uploads/2021/03/トップ仮-scaled.jpeg") !important;
+    width:100%;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-color: #000 !important;
+    } */
+
+body.home #main_visual {
+background-image: URL(https://demo.r-ruby.com/wp-content/uploads/2021/03/トップ仮-300x199.jpeg);
+background-size: cover;
+height: 500px !important;
+}
+
+body.home #popular_post_content,
+body.home #recent_post_content {
+  display: none;
+}
